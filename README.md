@@ -41,11 +41,9 @@ make up
 ```
 
 ### example usage
-add new source:
-```json
-/addsource {"name": "reddit", "url": "https://www.reddit.com/r/golang/.rss"}
-```
-list sources: 
-- /listsources
-delete source: 
+##### add new source: 
+- /addsource {"name": "reddit", "url": "https://www.reddit.com/r/golang/.rss"} 
+##### list sources: 
+- /listsources 
+##### delete source: 
 - /deletesource 1
